@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warewolf Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+        <h1 id="Judul">Masukan Nama Kamu</h1>
+        <input type="text" id="name" placeholder="Masukkan Nama Kamu">
+        <input type="button" value="Submit" onclick="gacha()" id="button">
+        <h2 id="result"></h2>
+        <p id="role-description"></p>
+        <input type="button" value="Kembali" id="back" style="display: none;">
+        <input type="button" value="Gacha" id="gacha" style="display: none;" onclick="gacha()">
+        <div id="message" style="display: none;"></div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
